@@ -12,6 +12,6 @@ We need to write a MapReduce program to find all pairs of distinct  flights with
 Each line of the output of your MapReduce program should have the following format: 
 Year/month/day F1’s flight number F2s flight number F1’s origin F1’sdestination     F2’s destination F1’s scheduled arrival time F2’s scheduled departure time 
 
-The the source code has Mapper, reducer, and driver classes. driver class is FlightDriver.java
+The zip file has source code which includes Mapper, reducer, and driver classes. Driver class is FlightDriver.java
 
 To run the code copy the full dataset to your Hadoop distributed file system. Then run your program for the entire dataset on yarn cluster.
